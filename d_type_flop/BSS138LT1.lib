@@ -1,4 +1,5 @@
 .SUBCKT BSS138LT1 1 2 3
-MM1 1 2 3 3 Nch W=220.00n L=180.00n           
+           .model switch_model sw(vh=1 vt=1.5 ron=0 roff=1Meg) 
+      s1 1 3 2 3 switch_model 
 .ENDS bss138lt1
 
