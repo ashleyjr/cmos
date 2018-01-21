@@ -46,7 +46,7 @@ $EndDescr
 Text Notes 600  1800 0    60   ~ 0
 -PSPICE\n\n**************************\n* Simulate with LTSpice *\n**************************\n.options gmin=1e-11\n.options abstol=1e-12\n.options reltol=0.001\n.options cshunt=1e-14\n\n.model NMOS NMOS(Vto=1.5 Kp=10 Rb=10)\n.model PMOS PMOS(Vto=-1.5 Kp=10 Rb=10)
 Text Notes 600  3250 0    60   ~ 0
-+PSPICE\n\nV1 GNDREF 0 DC 0\nV2 +3V3 GNDREF DC 3.3\nV3 CLK GNDREF PULSE(0 3.3 0 1p 1p 0.01m 0.02m 100000)\nV4 D GNDREF PWL(file=pwl.txt)\nV5 CLK_VIEW CLK DC 5\nV6 D_VIEW D DC 10\nR1 CLK_VIEW GNDREF 1Meg\nR2 D_VIEW GNDREF 1Meg\n\n.tran 0.01m 5m\n\n
++PSPICE\n\nV1 GNDREF 0 DC 0\nV2 +3V3 GNDREF DC 3.3\nV3 CLK GNDREF PULSE(0 3.3 0 1p 1p 0.01m 0.02m 100000)\nV4 D GNDREF PWL(file=pwl.txt)\nV5 CLK_VIEW CLK DC 5\nV6 D_VIEW D DC 10\nR1 CLK_VIEW GNDREF 1Meg\nR2 D_VIEW GNDREF 1Meg\n\n.tran 0.01m 5m\n.save V(Q) V(D) V(CLK) dialogbox\n
 $Sheet
 S 8000 3550 1050 400 
 U 5A5B9A1B
