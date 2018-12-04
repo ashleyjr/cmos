@@ -1,0 +1,11 @@
+Line No.,Order Code,RoHS Compliant?,Your Part No,Notes,Qty,Manufacturer Part Number,Manufacturer Name,Manufacturer / Description,Availability,Unit Price,Line Price,Discount Price
+1,2432717,YES,,,20.0,"BSS138NH6327XTSA2",INFINEON,"INFINEON  MOSFET Transistor, N Channel, 230 mA, 60 V, 2.2 ohm, 10 V, 1 V",60535,0.1950,3.90,,
+2,1888166,YES,,,20.0,"IRLML2246TRPBF",INFINEON,"INFINEON  MOSFET Transistor, P Channel, -2.6 A, -20 V, 0.09 ohm, -4.5 V, -1.1 V",1193,0.2970,5.94,,
+3,1668592,YES,,,1.0,"TSW-112-07-G-S",SAMTEC,"SAMTEC  Board-To-Board Connector, Single, 2.54 mm, 12 Contacts, Header, TSW Series, Through Hole, 1 Rows",128,1.0800,1.08,,
+
+,,,,,,,Sub Total,10.92
+,,,,,,,Goods Total,10.92
+,,,,,,,Delivery,0.00
+,,,,,,,Handling Charge,3.95
+,,,,,,,VAT,0.79
+,,,,,,,Total,15.66
